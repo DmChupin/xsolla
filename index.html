@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel='stylesheet' href='lib/style.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+        integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+    <script src='lib/script.js'></script>
+</head>
+
+<body>
+
+    <div class='back'>
+        
+        <div id='id' class='header'>
+            <h1>Event Listing</h1>
+        </div>
+
+        <div class='form-inline options'>
+            <div class='form-group'>
+
+                <label for='selectCity'>City:</label>
+
+                <select id='cities' class='form-control' onchange='changeOptions()'>
+                </select>
+
+                <label for='selectMonth'>Month:</label>
+
+                <select id='months' class='form-control' onchange='changeOptions()'>
+                </select>
+
+            </div>
+        </div>
+
+        <div id='images' class='flex' >
+        </div>
+
+    </div>
+</body>
+
+</html>
